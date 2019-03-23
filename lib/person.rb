@@ -4,7 +4,7 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
   
   def initialize(avi_attributes) 
-   avi_attributes.send  
+   avi_attributes.send {|key, value|  
     
   end 
 end
